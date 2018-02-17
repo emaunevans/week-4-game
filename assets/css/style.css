@@ -1,0 +1,80 @@
+body, html {
+    font-family: 'Creepster', cursive;
+    font-size: 20px;
+    color: rgb(9, 218, 9);
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box; 
+    margin: 0%;
+  }
+  
+.bg { 
+    background-image: url('');
+    width:100vh;
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  /* general */
+  
+  .main-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both; 
+    float: left;
+  } 
+
+   /* header */
+  
+   #masthead {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: rgb(4, 133, 32);
+    background: rgb(4, 133, 21);
+    border-bottom: 2px solid rgb(31, 245, 3);
+  } 
+
+  .clearfix::after {
+    content: "";
+    display: block; 
+    clear: both;
+  }
+
+.RickandMorty-image {
+    width: 210px;
+    height: 210px; 
+    padding: 2px; 
+    float: left;
+  } 
+
+  .MrPoopyButthole-image {
+    width: 210px;
+    height: 210px; 
+    padding: 2px; 
+    float: left;
+  } 
+   
+  .birdperson-image {
+    width: 210px;
+    height: 210px; 
+    padding: 2px; 
+    float: left;
+  } 
+
+  .Zeep-image {
+    width: 210px;
+    height: 210px; 
+    padding: 2px; 
+    float: left;
+  } 
